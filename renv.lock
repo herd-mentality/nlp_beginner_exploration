@@ -1,0 +1,60 @@
+{
+  "R": {
+    "Version": "4.2.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Packages": {
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.0",
+      "Source": "Repository"
+    },
+    "janeaustenr": {
+      "Package": "janeaustenr",
+      "Version": "1.0.0",
+      "Source": "Repository"
+    },
+    "quanteda": {
+      "Package": "quanteda",
+      "Version": "3.2.4",
+      "Source": "Repository"
+    },
+    "quanteda.corpora": {
+      "Package": "quanteda.corpora",
+      "Version": "0.9.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "quanteda",
+      "RemoteRepo": "quanteda.corpora",
+      "RemoteRef": "master",
+      "RemoteSha": "ec4b76d841afc9a734cc0351b1fa87236c83b456"
+    },
+    "readtext": {
+      "Package": "readtext",
+      "Version": "0.81",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "quanteda",
+      "RemoteRepo": "readtext",
+      "RemoteRef": "master",
+      "RemoteSha": "d480d9c55f2d4192519cb4a67309075e66023638"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.17.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "ce3065fc1a0b64a859f55ac3998d6927"
+    }
+  }
+}
